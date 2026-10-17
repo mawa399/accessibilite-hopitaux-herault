@@ -58,7 +58,7 @@ Population de l'Hérault prise en compte : 1 230 289 habitants (populations lég
 ## Lancer l'analyse
 
 1. Ouvrir `accessibilite_hopitaux_herault.aprx` dans ArcGIS Pro.
-2. **Catalogue → Boîtes à outils → clic droit → Ajouter une boîte à outils** : choisir `Accessibilite_hopitaux.pyt`.
+2. Dans **Catalogue → Boîtes à outils**, ouvrir `Accessibilite_hopitaux.pyt` : la boîte à outils est déjà rattachée au projet.
 3. Lancer **Temps d'accès aux hôpitaux par commune**. Les paramètres sont déjà remplis. L'outil recrée la géodatabase `resultats` utilisée par les cartes et la mise en page.
 
 En ligne de commande :
