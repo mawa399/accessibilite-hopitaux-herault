@@ -221,7 +221,7 @@ with arcpy.da.UpdateCursor(communes, champs) as cur:
             rec[f"HOP_{niveau}"] = infos_hop[fin]["nom"][:80]
             rec[f"CL_{niveau}"] = classe_temps(duree)
         # Détour : distance réellement parcourue jusqu'à l'établissement le plus rapide, rapportée à la
-        # distance à vol d'oiseau de l'établissement le plus proche (ce qu'annoncerait l'ancienne méthode)
+        # distance à vol d'oiseau de l'établissement le plus proche (ce qu'annoncerait une analyse à vol d'oiseau)
         rec["DETOUR_MCO"] = round(rec["D_MCO_KM"] / rec["VO_MCO_KM"], 2) if rec["VO_MCO_KM"] > 2 else None
         rec["CL_DETOUR"] = classe_detour(rec["DETOUR_MCO"])
         # 1 si l'établissement le plus proche à vol d'oiseau n'est pas le plus rapide par la route

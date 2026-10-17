@@ -1,6 +1,6 @@
 # Accessibilité des communes de l'Hérault aux hôpitaux
 
-Combien de temps faut-il, en voiture, pour rejoindre un hôpital depuis chacune des 341 communes de l'Hérault ? Ce projet ArcPy reprend un contrôle du Master 2 G2M (Paris 8) réalisé sur la Lozère, et l'améliore : les données sont officielles, l'accès est mesuré en **temps de trajet par la route** plutôt qu'à vol d'oiseau, on distingue **trois niveaux de soins** et on compte la **population concernée**.
+Combien de temps faut-il, en voiture, pour rejoindre un hôpital depuis chacune des 341 communes de l'Hérault ? Ce projet ArcPy répond à la question avec des données officielles. L'accès est mesuré en **temps de trajet par la route**, et non à vol d'oiseau. Il distingue **trois niveaux de soins** et compte la **population concernée**.
 
 ![Carte des temps d'accès](cartes/carte_acces_hopitaux_herault_A3.png)
 
@@ -16,7 +16,7 @@ Population de l'Hérault prise en compte : 1 230 289 habitants (populations lég
 - **98,2 % des habitants sont à moins de 30 minutes d'un hôpital MCO.** Les 1,8 % restants vivent dans 62 communes, dans les Hauts cantons (Espinouse, Somail, Minervois), sur le Larzac et dans les garrigues du nord-est (Claret, Vacquières). Les plus éloignées sont Romiguières (66 min), La Salvetat-sur-Agout (54 min), Le Soulié (51 min) et Sorbs (50 min).
 - **Le CHU de Montpellier est très inégalement accessible** : 184 communes et 338 000 habitants, sont à 45 minutes ou plus. C'est le cas de Béziers (60 min), d'Agde (53 min) et de Pézenas (47 min), pourtant bien équipées en hôpitaux MCO. À l'est, pour 13 communes du Lunellois, le CHU le plus rapide est celui de Nîmes.
 - **Pour 34 communes, l'hôpital MCO le plus rapide se trouve hors de l'Hérault** (Lézignan-Corbières, Narbonne, Millau, Mazamet). Une analyse limitée au département aurait surestimé leurs temps d'accès.
-- **Le vol d'oiseau trompe** : pour 78 communes, l'établissement le plus proche à vol d'oiseau n'est pas le plus rapide par la route. Si on applique les seuils de l'ancien contrôle (10 et 30 km), 93 communes sont classées « mieux » qu'elles ne le sont réellement. En médiane, le trajet réel vers l'hôpital le plus rapide est 1,39 fois plus long que la distance à vol d'oiseau de l'hôpital le plus proche, et il fait plus du double pour 28 communes.
+- **Le vol d'oiseau trompe** : pour 78 communes, l'établissement le plus proche à vol d'oiseau n'est pas le plus rapide par la route. Avec des seuils classiques de 10 et 30 km à vol d'oiseau, 93 communes sont classées « mieux » qu'elles ne le sont réellement. En médiane, le trajet réel vers l'hôpital le plus rapide est 1,39 fois plus long que la distance à vol d'oiseau de l'hôpital le plus proche, et il fait plus du double pour 28 communes.
 
 ![Vol d'oiseau vs route](cartes/carte_vol_oiseau_vs_route_A3.png)
 
